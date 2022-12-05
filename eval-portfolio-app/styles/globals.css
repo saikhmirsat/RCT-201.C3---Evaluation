@@ -13,14 +13,27 @@ a {
 
 * {
   box-sizing: border-box;
+  text-align: center;
 }
 
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
+
   body {
     color: white;
     background: black;
   }
+}
+
+.card-main-con {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.cards {
+  background-color: gray;
 }
